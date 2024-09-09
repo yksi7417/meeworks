@@ -1,5 +1,4 @@
 use axum::{routing::get, Router};
-use anyhow::Context;
 
 async fn hello_world() -> &'static str {
     "Hello, world 🀅!"
