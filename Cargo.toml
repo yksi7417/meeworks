@@ -8,6 +8,7 @@ unsafe_code = "forbid"
 
 [dependencies]
 axum = "0.7.5"
+serde = "1.0.210"
 shuttle-axum = "0.47.0"
 shuttle-runtime = "0.47.0"
 tokio = "1.40.0"
