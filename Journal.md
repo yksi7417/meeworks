@@ -11,3 +11,7 @@ cargo shuttle login
 cargo shuttle deploy
 
 https://meeworks.shuttleapp.rs/hello 
+
+## 9/9/2024 
+
+add ApiReponse
