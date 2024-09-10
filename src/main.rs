@@ -27,10 +27,15 @@ async fn index_page() -> &'static str {
     "Index Page"
 }
 
+async fn hello_text() -> &'static str {
+    "get hello"
+}
+
 #[shuttle_runtime::main]
 async fn axum() -> shuttle_axum::ShuttleAxum {
     let router = Router::new()
         .route("/", get(index_page))
-        .route("/hello", post(hello_world));  
+        .route("/hello", post(hello_world))
+        .route("/hello", get(hello_text));
     Ok(router.into())
 }
