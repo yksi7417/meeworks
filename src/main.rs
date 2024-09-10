@@ -5,7 +5,7 @@ async fn hello_world() -> &'static str {
 }
 
 async fn index_page() -> &'static str {
-    "Hello, world 🀅!"
+    "Index Page"
 }
 
 #[shuttle_runtime::main]
